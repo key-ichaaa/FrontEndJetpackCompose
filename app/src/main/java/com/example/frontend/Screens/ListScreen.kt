@@ -101,7 +101,7 @@ fun ListScreen(navController: NavHostController) {
                         .padding(8.dp),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
-                    // Load the square image from the drawable resources
+                    
                     Image(
                         painter = painterResource(id = lazycolumnResources[index]),
                         contentDescription = "Image $index",
